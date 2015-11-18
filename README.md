@@ -1,15 +1,12 @@
 
 ### 2.Exception常见异常及分析
-一、IllegalStateException   内部错误
-jdk5.0文档中很清楚地介绍了出现IllegalStateException异常的可能情况:（程序遇到了内部错误）
-
-1）同一个页面中再次调用response.sendRedirect()方法。
-2）提交的URL错误，即不是个有效的URL。
-3）adapter内容改变但未进行NotifyDataSetChanged（）;
-二、java.lang.NullPointerException        空指针
-
-
-三、OutOfMemoryError                      内存溢出。
+一、IllegalStateException   内部错误  
+jdk5.0文档中很清楚地介绍了出现IllegalStateException异常的可能情况:（程序遇到了内部错误）  
+1）同一个页面中再次调用response.sendRedirect()方法。  
+2）提交的URL错误，即不是个有效的URL。  
+3）adapter内容改变但未进行NotifyDataSetChanged（）;  
+二、java.lang.NullPointerException        空指针  
+三、OutOfMemoryError                      内存溢出。  
 Caused by: java.lang.OutOfMemoryError: Failed to allocate a 1504012 byte allocation with 1009122 free bytes and 985KB until OOM  
 
 四、RuntimeException                          运行时异常。是所有Java虚拟机正常操作期间可以被抛出的异常的父类。
