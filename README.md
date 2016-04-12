@@ -1,7 +1,10 @@
 ###3.Android常用开源库
-网络层： Retrofit或者Volley＋OkHttp，async-http-lib尽量就别用了，比较老。另外这些都需要再进一步扩展的，可以自己搜下，有用的就集成进去。
-数据库： GreenDao, Ormlite或者Realm，要加密的话用SqlCipher
-图片缓存： Fresco， glide，如果集成的效果不理想，多看看配置参数是否正确
+网络层： Retrofit或者Volley＋OkHttp，async-http-lib尽量就别用了，比较老。另外这些都需要再进一步扩展的，可以自己搜下，有用的就集成进去。  
+
+数据库： GreenDao, Ormlite或者Realm，要加密的话用SqlCipher  
+
+图片缓存： Fresco， glide，如果集成的效果不理想，多看看配置参数是否正确  
+
 工具： 查内存泄漏（leakcanary）异步通知（RxJava谨慎使用）数学计算表达式（expression4j）日期处理（joda time android）
 
 ***
